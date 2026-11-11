@@ -1,0 +1,13 @@
+{
+  "fingerprint": "3c93e24e33d852a7cd187f6edb8bff0bc357fabff25c4e76f5c5b7a76f18d44e",
+  "anchor": 1293,
+  "cutoff_exclusive": 1292,
+  "target_end": 1299,
+  "cohort_users": 80018,
+  "catalog": 1060869,
+  "query_users": 4335,
+  "reachable_users": 4319,
+  "final_test_used": false,
+  "preprocessing_cache": true,
+  "model_policy": "fresh fits; prepared-input cache only"
+}

@@ -1,0 +1,23 @@
+{
+  "reason": "Last-only workaround failed predeclared all-parameter gradient gate on final batch, first item layer relative error0.005958. Gate not relaxed; all4 Linear backward now checked.",
+  "before_training_gate": "All8 real-batch repeats, every parameter relativeL2<0.001 and loss difference<1e-5",
+  "evidence": "runs/stability_lr_20261108/strong_all_seed2026_lr0p0003_8epochs_tiled16384_resume4000/all_linear_verification.json",
+  "primary_lr": 0.0003,
+  "temperature": 0.1,
+  "seed": 2026,
+  "maximum_steps": 5992,
+  "maximum_epochs": 8,
+  "changed": "Mathematically equivalent tiled weight-gradient reduction for all4 current tower Linear layers",
+  "unchanged": [
+    "forward formula",
+    "initialization",
+    "parameters",
+    "data",
+    "sampler",
+    "loss",
+    "catalog",
+    "evaluation"
+  ],
+  "no_new_models_or_loss": true,
+  "final_test_used": false
+}

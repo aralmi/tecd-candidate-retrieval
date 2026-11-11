@@ -1,0 +1,158 @@
+[
+  {
+    "path": "train_prefix_sequence.py",
+    "source_sha256": "52a8a2c6e493507457a8364f4a3caace0fd3b753c69f397f448d274d65b536f2",
+    "engine_sha256": "52a8a2c6e493507457a8364f4a3caace0fd3b753c69f397f448d274d65b536f2"
+  },
+  {
+    "path": "prepare_strong.py",
+    "source_sha256": "dc4e4e7d822a8aa9a8806f0009243520d0ce8661386fc7ab2b6a1ab0f91a4dc6",
+    "engine_sha256": "dc4e4e7d822a8aa9a8806f0009243520d0ce8661386fc7ab2b6a1ab0f91a4dc6"
+  },
+  {
+    "path": "prepare_expansion.py",
+    "source_sha256": "afc8958a93caeb8d309f63ccd77cdffa82624f5b38f94b08d999c0e2b5ab635a",
+    "engine_sha256": "afc8958a93caeb8d309f63ccd77cdffa82624f5b38f94b08d999c0e2b5ab635a"
+  },
+  {
+    "path": "train_full_catalog.py",
+    "source_sha256": "73298687fc7de9da19fa53d73b4af35f26f1ec9d204a216a3c0d1d517c084d11",
+    "engine_sha256": "ab2e75d4aa25fba9173c01422c2d1486f07e88b1070c609a4db2dc1bf2f960fd",
+    "adaptation": "Remove dependency on the historical throughput-gate JSON; training formula and budget unchanged"
+  },
+  {
+    "path": "prepare_windows.py",
+    "source_sha256": "abdba6c265414288de5916b8918c0adf91638770e838c892381c03834865dafb",
+    "engine_sha256": "abdba6c265414288de5916b8918c0adf91638770e838c892381c03834865dafb"
+  },
+  {
+    "path": "prepare_prefix_sequence.py",
+    "source_sha256": "dd9c19d1aae622aed8eb236dd5ecb9b4bc570bbeead9402750f90b28ac908699",
+    "engine_sha256": "dd9c19d1aae622aed8eb236dd5ecb9b4bc570bbeead9402750f90b28ac908699"
+  },
+  {
+    "path": "audit_population.py",
+    "source_sha256": "65167df542ffa1bdcf46a49bdaca97fa90ca8fc2b218d75d7c23c6456be838b9",
+    "engine_sha256": "65167df542ffa1bdcf46a49bdaca97fa90ca8fc2b218d75d7c23c6456be838b9"
+  },
+  {
+    "path": "final_research_checks.py",
+    "source_sha256": "485e4c8f217107c9abf1160b09eefe4e94799f1e1da97b08511f3f8e198964ce",
+    "engine_sha256": "485e4c8f217107c9abf1160b09eefe4e94799f1e1da97b08511f3f8e198964ce"
+  },
+  {
+    "path": "summarize_large_mixed.py",
+    "source_sha256": "414e552d8089a0e7cd433d5cb8aabdda7d3d31d6c2c5f657a7dcb24c96f4a3a4",
+    "engine_sha256": "414e552d8089a0e7cd433d5cb8aabdda7d3d31d6c2c5f657a7dcb24c96f4a3a4"
+  },
+  {
+    "path": "recsys_lab/update_monitor.py",
+    "source_sha256": "f8e8c3594a176476af47286683467dc651049472d445ed2936c25ddd4e245640",
+    "engine_sha256": "f8e8c3594a176476af47286683467dc651049472d445ed2936c25ddd4e245640"
+  },
+  {
+    "path": "recsys_lab/group_weighting.py",
+    "source_sha256": "b462a72da5e5adc734878c6fc9a1dec06f445f73918a93e134f2fad2897fb12c",
+    "engine_sha256": "b462a72da5e5adc734878c6fc9a1dec06f445f73918a93e134f2fad2897fb12c"
+  },
+  {
+    "path": "recsys_lab/temporal_als.py",
+    "source_sha256": "f87349f57a275f7c4bc0c50ac12c7c2ce1b367bd1a154c500caff6d758905056",
+    "engine_sha256": "f87349f57a275f7c4bc0c50ac12c7c2ce1b367bd1a154c500caff6d758905056"
+  },
+  {
+    "path": "recsys_lab/metrics.py",
+    "source_sha256": "aa91b8c07db78bd1e9d376d75f67255a983cf51e0440dda5180d1c89c9089fc1",
+    "engine_sha256": "aa91b8c07db78bd1e9d376d75f67255a983cf51e0440dda5180d1c89c9089fc1"
+  },
+  {
+    "path": "recsys_lab/baselines.py",
+    "source_sha256": "bcebaa055cbe0f5b75c676bd3313ce381f05a4a94edf84ef63556467434638f8",
+    "engine_sha256": "bcebaa055cbe0f5b75c676bd3313ce381f05a4a94edf84ef63556467434638f8"
+  },
+  {
+    "path": "recsys_lab/neural.py",
+    "source_sha256": "629ecd6fad463172c03bfaf5fe6ac29d12cfa6ae8474e4ae0c1bdaf5a63247b9",
+    "engine_sha256": "629ecd6fad463172c03bfaf5fe6ac29d12cfa6ae8474e4ae0c1bdaf5a63247b9"
+  },
+  {
+    "path": "recsys_lab/scoring_checks.py",
+    "source_sha256": "2c5c88a65908b55690830a64b961fb5be46d06b9d533d687f8443079e8e28bdd",
+    "engine_sha256": "2c5c88a65908b55690830a64b961fb5be46d06b9d533d687f8443079e8e28bdd"
+  },
+  {
+    "path": "recsys_lab/temporal_checks.py",
+    "source_sha256": "9b4bd0b98e827829ea493603b82f86bc8de8584685d80eb7c367923bfa6e782e",
+    "engine_sha256": "9b4bd0b98e827829ea493603b82f86bc8de8584685d80eb7c367923bfa6e782e"
+  },
+  {
+    "path": "recsys_lab/contrastive.py",
+    "source_sha256": "824d947ba1bcba9e32c525e74d41c4f95477a67acd49a4dab40c039de39b619c",
+    "engine_sha256": "824d947ba1bcba9e32c525e74d41c4f95477a67acd49a4dab40c039de39b619c"
+  },
+  {
+    "path": "recsys_lab/loss_diagnostics.py",
+    "source_sha256": "511fd45ec5b9f409d6249012072e0853526be7cce401392643a5eb4707ae82d9",
+    "engine_sha256": "511fd45ec5b9f409d6249012072e0853526be7cce401392643a5eb4707ae82d9"
+  },
+  {
+    "path": "recsys_lab/interest_checks.py",
+    "source_sha256": "efce71d0e5f2bf41e8c656b1eee95d028bc0447d18fa98fcab90b89a0c452cb7",
+    "engine_sha256": "efce71d0e5f2bf41e8c656b1eee95d028bc0447d18fa98fcab90b89a0c452cb7"
+  },
+  {
+    "path": "recsys_lab/diagnostics.py",
+    "source_sha256": "5c3b1bfb733dc1beee9123b8dd42a280a9517f78d088cd7589e6620b7abb7d3b",
+    "engine_sha256": "5c3b1bfb733dc1beee9123b8dd42a280a9517f78d088cd7589e6620b7abb7d3b"
+  },
+  {
+    "path": "recsys_lab/mixed_history.py",
+    "source_sha256": "4985e1d93ccff53a59ca00839e061fd1cd186626714382ae4b091f79bb446c6f",
+    "engine_sha256": "4985e1d93ccff53a59ca00839e061fd1cd186626714382ae4b091f79bb446c6f"
+  },
+  {
+    "path": "recsys_lab/download.py",
+    "source_sha256": "e557c883ae1292f541f824fdf55082bb23ec1fb8e25c725658f63c5861f0957f",
+    "engine_sha256": "e557c883ae1292f541f824fdf55082bb23ec1fb8e25c725658f63c5861f0957f"
+  },
+  {
+    "path": "recsys_lab/__init__.py",
+    "source_sha256": "aca14f25962bada53f1239ef1e505c4e8c49f2c6636a928ad5cc80f3c4844496",
+    "engine_sha256": "aca14f25962bada53f1239ef1e505c4e8c49f2c6636a928ad5cc80f3c4844496"
+  },
+  {
+    "path": "recsys_lab/experiments.py",
+    "source_sha256": "57c57fd47f07ba419f19c9d162cd550499e9134528fe1eb18a5ce493013e750f",
+    "engine_sha256": "57c57fd47f07ba419f19c9d162cd550499e9134528fe1eb18a5ce493013e750f"
+  },
+  {
+    "path": "recsys_lab/tiled_linear.py",
+    "source_sha256": "eeea27abb26702fb3d702f6ed624e9c776c164aa76114fcfb7f862e47ee781c3",
+    "engine_sha256": "eeea27abb26702fb3d702f6ed624e9c776c164aa76114fcfb7f862e47ee781c3"
+  },
+  {
+    "path": "recsys_lab/fusion.py",
+    "source_sha256": "015eb8f74f6dd70313aa3be655556e7090035cc73580fc6ec2b935a9a1e7a360",
+    "engine_sha256": "015eb8f74f6dd70313aa3be655556e7090035cc73580fc6ec2b935a9a1e7a360"
+  },
+  {
+    "path": "recsys_lab/retrieval.py",
+    "source_sha256": "73fef96f5d58c4950ddc40d9670e39b7c41ec4179d0c7e219156dd83f552c3ff",
+    "engine_sha256": "73fef96f5d58c4950ddc40d9670e39b7c41ec4179d0c7e219156dd83f552c3ff"
+  },
+  {
+    "path": "recsys_lab/data.py",
+    "source_sha256": "aeedafb504c3266177e893951f3c009545af6aad1c3da37c4beb97822aa75cb8",
+    "engine_sha256": "aeedafb504c3266177e893951f3c009545af6aad1c3da37c4beb97822aa75cb8"
+  },
+  {
+    "path": "recsys_lab/prefix_sequence.py",
+    "source_sha256": "2ac493959451b689a2d9560d17c3a7e1a188986964fb69ecfe57284ce14bf6db",
+    "engine_sha256": "2ac493959451b689a2d9560d17c3a7e1a188986964fb69ecfe57284ce14bf6db"
+  },
+  {
+    "path": "train_large_mixed.py",
+    "source_sha256": "c0eeb4e0346c445ff045c581c94a0313636b3f085cce8b8bff3d6a8eca33e74a",
+    "engine_sha256": "c0eeb4e0346c445ff045c581c94a0313636b3f085cce8b8bff3d6a8eca33e74a"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "anchor": 1301,
+  "gap_day": 1300,
+  "goal_days": [
+    1301,
+    1307
+  ],
+  "training_days": [
+    1210,
+    1299
+  ],
+  "history_days": 60,
+  "cohort": "Original80018 users selected on1202..1261",
+  "catalog": "Observed in original cohort past90; catalog row exists",
+  "baseline": "Strong personal frequency dailymax60 then pop28",
+  "challenger": "Same baseline plus raw ALS using existing weighted roundrobin quota10",
+  "als": {
+    "factors": 32,
+    "regularization": 0.1,
+    "iterations": 10,
+    "alpha": 1.0,
+    "seed": 2026
+  },
+  "confidence": "1+20log1p(sum of daily maximum action strength)",
+  "query": "Exact full60 all-action collapse consecutive repeats",
+  "goal": "Unique weekly click items, repeats allowed",
+  "metrics": [
+    "macro reachable Recall200",
+    "macro all Recall200",
+    "NDCG200",
+    "paired user bootstrap"
+  ],
+  "decision": "Report challenger minus baseline with95%paired user interval; retain all outcomes, no final tuning",
+  "revision": "79bcf78cd4699267f561ad3fd51fe7b52af53083"
+}

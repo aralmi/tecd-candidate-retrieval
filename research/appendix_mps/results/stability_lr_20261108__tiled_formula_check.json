@@ -1,0 +1,10 @@
+{
+  "forward_exact": true,
+  "backward_max_abs": [
+    0.0,
+    1.7763568394002505e-15,
+    1.7763568394002505e-15
+  ],
+  "passed": true,
+  "optimizer_steps": 0
+}

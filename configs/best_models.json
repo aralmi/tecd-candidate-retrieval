@@ -1,0 +1,93 @@
+{
+  "anchor": 1293,
+  "seed": 2026,
+  "k": 200,
+  "baseline": "personal_pop28",
+  "training_mode": "fresh_model_fit",
+  "bm25": {
+    "K": 100,
+    "K1": 1.2,
+    "B": 0.75,
+    "fit_strong_only": true,
+    "history_strong_only": true
+  },
+  "als": {
+    "factors": 32,
+    "regularization": 0.1,
+    "iterations": 10,
+    "alpha": 1.0,
+    "query": "full60"
+  },
+  "content": {
+    "history": "all50",
+    "half_life_days": 7,
+    "dimensions": 300
+  },
+  "two_tower": {
+    "variant": "strong_all",
+    "lr": 0.0003,
+    "temperature": 0.1,
+    "maximum_epochs": 8,
+    "batch_size": 512,
+    "negative_draws": 256,
+    "early_stop": false,
+    "linear_backward": "all4_tiled16384"
+  },
+  "sequence": {
+    "encoder": "sequence",
+    "length": 50,
+    "updates": 6000,
+    "lr": 0.001,
+    "negative_draws": 256,
+    "linear_backward": "all4_tiled16384"
+  },
+  "score_selection": "Raw or fixed logQ coefficient0.1 on the same selected checkpoint; development Recall200 only",
+  "evaluation_role": "Development comparison, not a new held-out confirmation",
+  "fusions": {
+    "personal_als10": {
+      "personal_pop28": 190,
+      "als_full60": 10
+    },
+    "personal_tt10": {
+      "personal_pop28": 190,
+      "two_tower": 10
+    },
+    "personal_seq10": {
+      "personal_pop28": 190,
+      "sequence": 10
+    },
+    "personal_als10_tt10": {
+      "personal_pop28": 180,
+      "als_full60": 10,
+      "two_tower": 10
+    },
+    "personal_als10_seq10": {
+      "personal_pop28": 180,
+      "als_full60": 10,
+      "sequence": 10
+    },
+    "personal_all5": {
+      "personal_pop28": 150,
+      "als_full60": 20,
+      "bm25": 10,
+      "content_decay": 5,
+      "two_tower": 10,
+      "sequence": 5
+    },
+    "all5_only": {
+      "als_full60": 80,
+      "bm25": 20,
+      "content_decay": 20,
+      "two_tower": 40,
+      "sequence": 40
+    },
+    "personal_pop90_25": {
+      "personal_pop28": 175,
+      "pop90": 25
+    },
+    "personal_train_pop10": {
+      "personal_pop28": 190,
+      "training_target_pop": 10
+    }
+  }
+}

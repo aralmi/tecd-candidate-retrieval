@@ -1,0 +1,27 @@
+{
+  "seed": 2026,
+  "n_users": 100000,
+  "history_days": 60,
+  "history_length": 50,
+  "validation_anchor": 1293,
+  "train_anchors": [
+    1263,
+    1270,
+    1277,
+    1284
+  ],
+  "batch_size": 128,
+  "negative_count": 64,
+  "epochs": 4,
+  "learning_rate": 0.001,
+  "device": "mps",
+  "k": 200,
+  "event_start": 1202,
+  "event_end": 1299,
+  "cohort_start": 1202,
+  "cohort_end": 1261,
+  "fit_end": 1292,
+  "cohort_mode": "past_strong",
+  "min_strong_items": 3,
+  "min_strong_days": 2
+}

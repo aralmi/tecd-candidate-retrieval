@@ -1,0 +1,5 @@
+source,training_rows,users,positive_items,empty_history_rows,padding_fraction,nonempty_rows_single_unique_item,median_tokens,median_unique_history_items,positive_items_with_one_pair_fraction,invalid_action_tokens,inconsistent_padding_tokens
+all_catalog_strong_history,122105,25827,26027,2777,0.7211062610048729,870,10.0,9.0,0.725170015752872,0,0
+diag5000_strong,69219,22842,2946,1276,0.7344191623687137,401,9.0,8.0,0.241683638832315,0,0
+diag20000_strong,82218,23948,6600,1586,0.7302405799216717,502,9.0,8.0,0.42742424242424243,0,0
+diag5000_mixed,69219,22842,2946,0,0.03469307560062988,23,50.0,36.0,0.241683638832315,0,0

@@ -1,0 +1,234 @@
+[
+  {
+    "source": "audit_population.py",
+    "bundle": "engine/audit_population.py",
+    "source_sha256": "65167df542ffa1bdcf46a49bdaca97fa90ca8fc2b218d75d7c23c6456be838b9",
+    "bundle_sha256": "65167df542ffa1bdcf46a49bdaca97fa90ca8fc2b218d75d7c23c6456be838b9",
+    "bytes": 1557,
+    "paths_sanitized": false
+  },
+  {
+    "source": "final_research_checks.py",
+    "bundle": "engine/final_research_checks.py",
+    "source_sha256": "485e4c8f217107c9abf1160b09eefe4e94799f1e1da97b08511f3f8e198964ce",
+    "bundle_sha256": "485e4c8f217107c9abf1160b09eefe4e94799f1e1da97b08511f3f8e198964ce",
+    "bytes": 10607,
+    "paths_sanitized": false
+  },
+  {
+    "source": "prepare_expansion.py",
+    "bundle": "engine/prepare_expansion.py",
+    "source_sha256": "afc8958a93caeb8d309f63ccd77cdffa82624f5b38f94b08d999c0e2b5ab635a",
+    "bundle_sha256": "afc8958a93caeb8d309f63ccd77cdffa82624f5b38f94b08d999c0e2b5ab635a",
+    "bytes": 7434,
+    "paths_sanitized": false
+  },
+  {
+    "source": "prepare_prefix_sequence.py",
+    "bundle": "engine/prepare_prefix_sequence.py",
+    "source_sha256": "dd9c19d1aae622aed8eb236dd5ecb9b4bc570bbeead9402750f90b28ac908699",
+    "bundle_sha256": "dd9c19d1aae622aed8eb236dd5ecb9b4bc570bbeead9402750f90b28ac908699",
+    "bytes": 6727,
+    "paths_sanitized": false
+  },
+  {
+    "source": "prepare_strong.py",
+    "bundle": "engine/prepare_strong.py",
+    "source_sha256": "dc4e4e7d822a8aa9a8806f0009243520d0ce8661386fc7ab2b6a1ab0f91a4dc6",
+    "bundle_sha256": "dc4e4e7d822a8aa9a8806f0009243520d0ce8661386fc7ab2b6a1ab0f91a4dc6",
+    "bytes": 2599,
+    "paths_sanitized": false
+  },
+  {
+    "source": "prepare_windows.py",
+    "bundle": "engine/prepare_windows.py",
+    "source_sha256": "abdba6c265414288de5916b8918c0adf91638770e838c892381c03834865dafb",
+    "bundle_sha256": "abdba6c265414288de5916b8918c0adf91638770e838c892381c03834865dafb",
+    "bytes": 2360,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/__init__.py",
+    "bundle": "engine/recsys_lab/__init__.py",
+    "source_sha256": "aca14f25962bada53f1239ef1e505c4e8c49f2c6636a928ad5cc80f3c4844496",
+    "bundle_sha256": "aca14f25962bada53f1239ef1e505c4e8c49f2c6636a928ad5cc80f3c4844496",
+    "bytes": 126,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/baselines.py",
+    "bundle": "engine/recsys_lab/baselines.py",
+    "source_sha256": "bcebaa055cbe0f5b75c676bd3313ce381f05a4a94edf84ef63556467434638f8",
+    "bundle_sha256": "bcebaa055cbe0f5b75c676bd3313ce381f05a4a94edf84ef63556467434638f8",
+    "bytes": 9679,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/contrastive.py",
+    "bundle": "engine/recsys_lab/contrastive.py",
+    "source_sha256": "824d947ba1bcba9e32c525e74d41c4f95477a67acd49a4dab40c039de39b619c",
+    "bundle_sha256": "824d947ba1bcba9e32c525e74d41c4f95477a67acd49a4dab40c039de39b619c",
+    "bytes": 629,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/data.py",
+    "bundle": "engine/recsys_lab/data.py",
+    "source_sha256": "aeedafb504c3266177e893951f3c009545af6aad1c3da37c4beb97822aa75cb8",
+    "bundle_sha256": "aeedafb504c3266177e893951f3c009545af6aad1c3da37c4beb97822aa75cb8",
+    "bytes": 13808,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/diagnostics.py",
+    "bundle": "engine/recsys_lab/diagnostics.py",
+    "source_sha256": "5c3b1bfb733dc1beee9123b8dd42a280a9517f78d088cd7589e6620b7abb7d3b",
+    "bundle_sha256": "5c3b1bfb733dc1beee9123b8dd42a280a9517f78d088cd7589e6620b7abb7d3b",
+    "bytes": 5120,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/download.py",
+    "bundle": "engine/recsys_lab/download.py",
+    "source_sha256": "e557c883ae1292f541f824fdf55082bb23ec1fb8e25c725658f63c5861f0957f",
+    "bundle_sha256": "e557c883ae1292f541f824fdf55082bb23ec1fb8e25c725658f63c5861f0957f",
+    "bytes": 3202,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/experiments.py",
+    "bundle": "engine/recsys_lab/experiments.py",
+    "source_sha256": "57c57fd47f07ba419f19c9d162cd550499e9134528fe1eb18a5ce493013e750f",
+    "bundle_sha256": "57c57fd47f07ba419f19c9d162cd550499e9134528fe1eb18a5ce493013e750f",
+    "bytes": 13906,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/fusion.py",
+    "bundle": "engine/recsys_lab/fusion.py",
+    "source_sha256": "015eb8f74f6dd70313aa3be655556e7090035cc73580fc6ec2b935a9a1e7a360",
+    "bundle_sha256": "015eb8f74f6dd70313aa3be655556e7090035cc73580fc6ec2b935a9a1e7a360",
+    "bytes": 4629,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/group_weighting.py",
+    "bundle": "engine/recsys_lab/group_weighting.py",
+    "source_sha256": "b462a72da5e5adc734878c6fc9a1dec06f445f73918a93e134f2fad2897fb12c",
+    "bundle_sha256": "b462a72da5e5adc734878c6fc9a1dec06f445f73918a93e134f2fad2897fb12c",
+    "bytes": 883,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/interest_checks.py",
+    "bundle": "engine/recsys_lab/interest_checks.py",
+    "source_sha256": "efce71d0e5f2bf41e8c656b1eee95d028bc0447d18fa98fcab90b89a0c452cb7",
+    "bundle_sha256": "efce71d0e5f2bf41e8c656b1eee95d028bc0447d18fa98fcab90b89a0c452cb7",
+    "bytes": 17333,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/loss_diagnostics.py",
+    "bundle": "engine/recsys_lab/loss_diagnostics.py",
+    "source_sha256": "511fd45ec5b9f409d6249012072e0853526be7cce401392643a5eb4707ae82d9",
+    "bundle_sha256": "511fd45ec5b9f409d6249012072e0853526be7cce401392643a5eb4707ae82d9",
+    "bytes": 11182,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/metrics.py",
+    "bundle": "engine/recsys_lab/metrics.py",
+    "source_sha256": "aa91b8c07db78bd1e9d376d75f67255a983cf51e0440dda5180d1c89c9089fc1",
+    "bundle_sha256": "aa91b8c07db78bd1e9d376d75f67255a983cf51e0440dda5180d1c89c9089fc1",
+    "bytes": 3090,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/mixed_history.py",
+    "bundle": "engine/recsys_lab/mixed_history.py",
+    "source_sha256": "4985e1d93ccff53a59ca00839e061fd1cd186626714382ae4b091f79bb446c6f",
+    "bundle_sha256": "4985e1d93ccff53a59ca00839e061fd1cd186626714382ae4b091f79bb446c6f",
+    "bytes": 4621,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/neural.py",
+    "bundle": "engine/recsys_lab/neural.py",
+    "source_sha256": "629ecd6fad463172c03bfaf5fe6ac29d12cfa6ae8474e4ae0c1bdaf5a63247b9",
+    "bundle_sha256": "629ecd6fad463172c03bfaf5fe6ac29d12cfa6ae8474e4ae0c1bdaf5a63247b9",
+    "bytes": 12415,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/prefix_sequence.py",
+    "bundle": "engine/recsys_lab/prefix_sequence.py",
+    "source_sha256": "2ac493959451b689a2d9560d17c3a7e1a188986964fb69ecfe57284ce14bf6db",
+    "bundle_sha256": "2ac493959451b689a2d9560d17c3a7e1a188986964fb69ecfe57284ce14bf6db",
+    "bytes": 4823,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/retrieval.py",
+    "bundle": "engine/recsys_lab/retrieval.py",
+    "source_sha256": "73fef96f5d58c4950ddc40d9670e39b7c41ec4179d0c7e219156dd83f552c3ff",
+    "bundle_sha256": "73fef96f5d58c4950ddc40d9670e39b7c41ec4179d0c7e219156dd83f552c3ff",
+    "bytes": 2491,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/scoring_checks.py",
+    "bundle": "engine/recsys_lab/scoring_checks.py",
+    "source_sha256": "2c5c88a65908b55690830a64b961fb5be46d06b9d533d687f8443079e8e28bdd",
+    "bundle_sha256": "2c5c88a65908b55690830a64b961fb5be46d06b9d533d687f8443079e8e28bdd",
+    "bytes": 5795,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/temporal_als.py",
+    "bundle": "engine/recsys_lab/temporal_als.py",
+    "source_sha256": "f87349f57a275f7c4bc0c50ac12c7c2ce1b367bd1a154c500caff6d758905056",
+    "bundle_sha256": "f87349f57a275f7c4bc0c50ac12c7c2ce1b367bd1a154c500caff6d758905056",
+    "bytes": 1738,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/temporal_checks.py",
+    "bundle": "engine/recsys_lab/temporal_checks.py",
+    "source_sha256": "9b4bd0b98e827829ea493603b82f86bc8de8584685d80eb7c367923bfa6e782e",
+    "bundle_sha256": "9b4bd0b98e827829ea493603b82f86bc8de8584685d80eb7c367923bfa6e782e",
+    "bytes": 7740,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/tiled_linear.py",
+    "bundle": "engine/recsys_lab/tiled_linear.py",
+    "source_sha256": "eeea27abb26702fb3d702f6ed624e9c776c164aa76114fcfb7f862e47ee781c3",
+    "bundle_sha256": "eeea27abb26702fb3d702f6ed624e9c776c164aa76114fcfb7f862e47ee781c3",
+    "bytes": 2169,
+    "paths_sanitized": false
+  },
+  {
+    "source": "recsys_lab/update_monitor.py",
+    "bundle": "engine/recsys_lab/update_monitor.py",
+    "source_sha256": "f8e8c3594a176476af47286683467dc651049472d445ed2936c25ddd4e245640",
+    "bundle_sha256": "f8e8c3594a176476af47286683467dc651049472d445ed2936c25ddd4e245640",
+    "bytes": 8905,
+    "paths_sanitized": false
+  },
+  {
+    "source": "runs/prefix_sequence_20261104/snapshots/train_prefix_sequence.py",
+    "bundle": "engine/train_prefix_sequence.py",
+    "source_sha256": "52a8a2c6e493507457a8364f4a3caace0fd3b753c69f397f448d274d65b536f2",
+    "bundle_sha256": "52a8a2c6e493507457a8364f4a3caace0fd3b753c69f397f448d274d65b536f2",
+    "bytes": 15871,
+    "paths_sanitized": false
+  },
+  {
+    "source": "summarize_large_mixed.py",
+    "bundle": "engine/summarize_large_mixed.py",
+    "source_sha256": "414e552d8089a0e7cd433d5cb8aabdda7d3d31d6c2c5f657a7dcb24c96f4a3a4",
+    "bundle_sha256": "414e552d8089a0e7cd433d5cb8aabdda7d3d31d6c2c5f657a7dcb24c96f4a3a4",
+    "bytes": 7779,
+    "paths_sanitized": false
+  }
+]

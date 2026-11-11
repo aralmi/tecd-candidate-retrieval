@@ -1,0 +1,71 @@
+{
+  "variant": "strong_all",
+  "seed": 2026,
+  "pairs": 383441,
+  "training_users": 79689,
+  "positive_items": 58450,
+  "batch_size": 512,
+  "maximum_epochs": 8,
+  "maximum_steps": 5992,
+  "validation_every": 500,
+  "patience_checks": 2,
+  "minimum_improvement": 0.001,
+  "minimum_steps_before_early_stop": 1000,
+  "history": "strong100",
+  "catalog": 1049177,
+  "lr": 0.0003,
+  "temperature": 0.1,
+  "negative_draws": 256,
+  "sampler": "Same frozen as-of-anchor proposal for every variant; fixed original historical candidate support",
+  "init_sha256": "d9150e3fab0cfbbb8239e0d38004b6a2e4e4cc58ecf9188dcaed0b76c91fdaa0",
+  "trainer_sha256": "7ffa9db93e560e5acc5b0999deabc8ef9747b7a58989f1023d9a61e2d71a0b97",
+  "torch_version": "2.9.1",
+  "objective": "equal_positive_pair",
+  "use_content": true,
+  "schedule": "constant",
+  "early_stop_enabled": false,
+  "step_monitor": {
+    "critical_parameter": "item_mlp.3.weight",
+    "every_step": true,
+    "all_layers_every": 50,
+    "gradient_clipping": 1.0,
+    "warning": {
+      "critical_relative_update": 0.05,
+      "critical_max_abs_update": 0.05,
+      "adam_max_abs_error": 0.0001,
+      "global_gradient_norm": 1000.0
+    },
+    "stop": {
+      "adam_max_abs_error": 0.001,
+      "postclip_norm": 1.01,
+      "catastrophic_update": "weight norm more than doubles and relative update exceeds0.5",
+      "sustained_loss": "100 consecutive rolling100 windows above best rolling100 by both2.0 and25%; only after1000updates"
+    },
+    "incident_limit": 2,
+    "incident_states": "critical tensor+Adam pre-update; full model+optimizer post-update; exact batch",
+    "note": "Thresholds are diagnostic project rules, not evidence of a bug by themselves; no final test",
+    "linear_backward": "all4_tiled16384",
+    "implementation_sha256": "eeea27abb26702fb3d702f6ed624e9c776c164aa76114fcfb7f862e47ee781c3"
+  },
+  "resume_from": null,
+  "data_context": {
+    "anchor": 1286,
+    "catalog": 1049177,
+    "query_users": 6302,
+    "train_anchors": [
+      1235,
+      1242,
+      1249,
+      1256,
+      1263,
+      1270,
+      1277
+    ],
+    "history": "Same cached causal strong50 prefixes mapped to earlier FULL catalog; unavailable history items become padding; empty prefixes removed identically",
+    "training": "Seven available past windows from existing supervision, both temperatures identical",
+    "negative_proposals": "Recomputed exact full as-of-anchor uniform/pop mixture using old cohort past90",
+    "final_data_used": false
+  },
+  "fingerprint": "347840bdf6b82f420d74f39e616969bfdd540b0a906657db63764f29bf900e5f",
+  "final_test_used": false
+}

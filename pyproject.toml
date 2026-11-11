@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recsys-research"
+version = "0.1.0"
+description = "Temporal candidate retrieval experiments on T-ECD Marketplace"
+requires-python = ">=3.10"
+dependencies = ["numpy==1.26.4", "pandas==2.2.2", "matplotlib>=3.8,<4", "nbformat>=5.9,<6", "nbclient>=0.8,<1", "ipykernel>=6,<8"]
+
+[project.optional-dependencies]
+training = ["torch==2.9.1", "scipy==1.13.1", "pyarrow==23.0.1", "duckdb==1.4.3", "implicit==0.7.2", "requests>=2.32,<3", "psutil>=5.9,<8", "threadpoolctl>=3.5,<4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

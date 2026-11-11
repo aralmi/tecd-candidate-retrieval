@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "queries": 3503,
+  "reachable_queries": 3481,
+  "added_target_pairs": 32,
+  "lost_target_pairs": 15,
+  "independently_recounted_delta": 0.001717482406660584,
+  "full_delta": 0.001708376259911868,
+  "exact200_unique_in_catalog": true,
+  "goals_read_from_verified7files": true
+}

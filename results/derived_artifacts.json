@@ -1,0 +1,10 @@
+{
+  "research/06_final_results/results/paired_metrics.csv": {
+    "source_files": {
+      "runs/closing_checks_20261107/final_personal_pop28_per_user.parquet": "9ba8d111bbd77aae0024c30da7fa63f93bad25b64878cea8bfd643543f54ea36",
+      "runs/closing_checks_20261107/final_personal_als_b10_per_user.parquet": "115f0e982337ed2647ef2e66fa4f3eee6228cb3c89ef80989d7f1d7f6092a00c"
+    },
+    "transformation": "Assert identical u order; select paired recall_reachable, recall_all and ndcg at200; drop original u and all item/event identifiers",
+    "bundle_sha256": "29d7434f46f1be5243044b995e41260a74562ada5f86a958c2ddd15d797c308f"
+  }
+}

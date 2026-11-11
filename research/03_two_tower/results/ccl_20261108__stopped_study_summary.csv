@@ -1,0 +1,4 @@
+margin,negative_weight,status,best_recall,best_update,durable_update,numeric_verified
+0.5,50.0,early_stopping,0.12796534180536853,1000.0,2000.0,True
+0.8,50.0,stopped_at_1500,0.1800015592579477,1000.0,1500.0,False
+0.8,150.0,not_started,,,,False

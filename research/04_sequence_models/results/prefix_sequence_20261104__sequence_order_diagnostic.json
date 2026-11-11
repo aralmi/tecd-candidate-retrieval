@@ -1,0 +1,30 @@
+[
+  {
+    "mode": "raw",
+    "own_recall": 0.26362350041168336,
+    "shuffled_token_recall": 0.2639321303220729,
+    "own_minus_shuffled": -0.000308629910389577,
+    "ci95": [
+      -0.0009914648058681154,
+      0.0002930207015430202
+    ],
+    "permutation_seeds": 1,
+    "caveat": "Input corruption diagnostic; not proof that order-aware training is better",
+    "weights_changed": false,
+    "final_test_used": false
+  },
+  {
+    "mode": "same_fixed_prior",
+    "own_recall": 0.27695591999684394,
+    "shuffled_token_recall": 0.2771897733705871,
+    "own_minus_shuffled": -0.00023385337374321182,
+    "ci95": [
+      -0.0011048009032206762,
+      0.0006603282884113604
+    ],
+    "permutation_seeds": 1,
+    "caveat": "Input corruption diagnostic; not proof that order-aware training is better",
+    "weights_changed": false,
+    "final_test_used": false
+  }
+]

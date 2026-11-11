@@ -1,0 +1,28 @@
+{
+  "dataset": "T-ECD Small Marketplace",
+  "revision": "79bcf78cd4699267f561ad3fd51fe7b52af53083",
+  "cohort": 80018,
+  "cohort_days": [
+    1202,
+    1261
+  ],
+  "dev_anchors": [
+    1279,
+    1286,
+    1293
+  ],
+  "query_history_days": 60,
+  "query_length_initial": 50,
+  "query_length_later": 100,
+  "gap_days": 1,
+  "target": "unique_click_items",
+  "k": 200,
+  "repeats_allowed": true,
+  "final_anchor": 1301,
+  "final_days": [
+    1301,
+    1307
+  ],
+  "final_used": true,
+  "static_embedding_asof_unconfirmed": true
+}
